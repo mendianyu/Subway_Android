@@ -48,5 +48,6 @@
             android:backgroundTint="#BA03A9F4"
             android:text="换乘查询"
             android:textSize="25dp" />
+
     </LinearLayout>
 </LinearLayout>

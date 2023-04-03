@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_line).setOnClickListener(this);
         findViewById(R.id.btn_station).setOnClickListener(this);
         findViewById(R.id.btn_change).setOnClickListener(this);
-    }
 
+    }
     protected void onStart()
     {
         super.onStart();
@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this, ChangeStationActivity.class);
                 startActivity(intent);
                 break;
+
         }
     }
 }
